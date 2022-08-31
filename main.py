@@ -53,5 +53,5 @@ def get_products(count):
         excel_file.save()
 
 if __name__ == "__main__":
-    get_products(2)
+    get_products(int(input("Watcha want? \t")))
 

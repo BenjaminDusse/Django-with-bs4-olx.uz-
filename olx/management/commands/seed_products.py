@@ -13,5 +13,5 @@ class Command(BaseCommand):
         number = options.get("number")
 
         olx_products.get_products(Product, number)
-
+        
         self.stdout.write(self.style.SUCCESS(f"{number} products created!"))
